@@ -1,0 +1,82 @@
+.grid_cont {
+   display: grid;
+   margin: 2%;
+}
+.search_film_cont {
+   border-top: 3px solid #F0BF04;
+}
+.search_content {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.text_cont {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding-left: 6%;
+   padding-top: 3%;
+   padding-bottom: 3%;
+}
+.title a,
+.text a {
+   text-decoration: none;
+   transform: all 0.3s;
+}
+.title a {
+   color: white;
+}
+.title a:hover {
+   color: #5BD1D7;
+}
+.text a {
+   color: #5BD1D7;
+} 
+.text a:hover {
+   color: #F59794;
+} 
+.text_no {
+   font-size: 1.6rem;
+   margin-top: 2%;
+}
+.comm_cont {
+   border-top: 3px solid #F0BF04;
+   margin: 2% 0;
+}
+.comm_title {
+   font-size: 1.6rem;
+   margin: 1% 0;
+}
+.comm_text {
+   color: grey;
+   font-size: 1.2rem;
+}
+.form_cont {
+   border-top: 3px solid #F0BF04;
+   margin: 2% 0;
+}
+.inp {
+   padding: 5%;
+   background-color: #2b2b2b;
+   border: none;
+   outline: none;
+   color: white;
+   font-size: 1.1rem;
+}
+.inps_box {
+   display: flex;
+   gap: 3%;
+}
+.btn_box {
+   margin-top: 1%;
+}
+.btn {
+   width: 10%;
+   padding: 0.5%;
+   font-size: 1.2rem;
+   cursor: pointer;
+   border: none;
+   background-color: #f1f900;
+}
+.btn:hover {
+   background-color: #f55a0c;
+}

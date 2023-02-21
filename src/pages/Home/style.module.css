@@ -1,0 +1,30 @@
+.first_section {
+   border-top: 2px solid #F0BF4C;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin: 20px 0;
+   height: 400px;
+}
+.grid_container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   height: 100%;
+}
+.grid_cont {
+   display: grid;
+}
+@media (max-width: 780px) {
+   .first_section {
+      display: grid;
+      grid-template-columns: 1fr;
+      height: auto;
+   }
+   .grid_cont {
+      height: 300px;
+   }
+   .grid_container{
+      display: grid;
+      grid-template-columns: 1fr;
+      height: 1200px;
+   }
+}

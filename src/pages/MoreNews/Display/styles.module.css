@@ -1,0 +1,17 @@
+.cont_pagfilm {
+   display: grid;
+   grid-template-columns: 30% 70%;
+   border-top: 3px solid #F0BF4C;
+   overflow: hidden;
+}
+.title {
+   margin-bottom: 20px;
+   font-size: 1.6em;
+}
+
+/* @media (max-width: 700px) {
+   .cont_pagfilm {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+} */

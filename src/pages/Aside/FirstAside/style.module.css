@@ -1,0 +1,48 @@
+.aside_top_wrap {
+   border-top: 3px solid #F59794;
+}
+.first_aside_content {
+   padding: 30px 20px;
+   background-color: rgb(56, 54, 54);
+}
+.title {
+   font-size: 1.6em;
+   margin: 20px 0;
+}
+.text {
+   margin: 20px 0;
+   color: #888888;
+}
+.cont_title {
+   font-weight: 400;
+}
+
+.first_aside_content_black {
+   background-color: rgb(40, 36, 36);
+}
+.inp,
+.btn {
+   width: 100%;
+   padding: 20px;
+}
+.inp {
+   background-color: rgb(20, 20, 20);
+   color: white;
+   border: 1px solid whitesmoke;
+   outline: none;
+}
+.btn {
+   color: white;
+   background-color: rgb(27, 190, 188);
+   border: none;
+   font-size: 14px;
+   transition: all 0.5s ease;
+   cursor: pointer;
+}
+.black_btn {
+   margin-top: 5px;
+}
+.btn:hover {
+   background-color: rgb(12, 249, 99);
+   transition: all 0.5s ease;
+}

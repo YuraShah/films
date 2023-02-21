@@ -1,0 +1,16 @@
+.container {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+   url('http://localhost:3000/images/profilewallp.webp');
+   background-size: cover;
+   height: 100vh;
+}
+.card {
+   border: 2px solid white;
+   width: 20%;
+   margin: 3%;
+   padding: 2%;
+   font-size: 1.4rem;
+}
+.card p {
+   margin: 7% 0;
+}

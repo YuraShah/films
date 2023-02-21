@@ -1,0 +1,140 @@
+.container {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   margin: 2% 0;
+   column-gap: 30px;
+}
+.film_cont {
+   border-top: 3px solid #ea485e;
+   display: grid;
+   background-color: #222222;
+   padding: 20px 30px;
+}
+.comm_cont {
+   border-top: 3px solid #F0BF04;
+   margin-top: 4%;
+   display: grid;
+   padding: 10px 30px;
+   background-color: #222222;
+}
+.btn {
+   background-color: #fd7b35;
+   padding: 5px; 
+   border: none;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+.btn a {
+   color: white;
+   text-decoration: none;
+}
+.btn:hover {
+   background-color: #ea485e;
+   transition: all 0.3s;
+}
+.title {
+   margin: 2% 0;
+   font-size: 1.7rem;
+}
+.film_cont p {
+   margin: 1% 0;
+   color: #888888;
+}
+.film_cont p span {
+   color: white;
+}
+.comm_inp,
+.comm_textarea {
+   width: 100%;
+   outline: none;
+   background-color: #2b2b2b;
+   border: 1px solid white;
+   color: white;
+   font-weight: 500;
+   font-size: 1.1rem;
+}
+.comm_inp::placeholder,
+.comm_textarea::placeholder {
+   color: white;
+}
+.comm_inp {
+   padding: 10px;
+}
+.comm_btn {
+   padding: 15px;
+   min-width: 25%;
+   background-color: #3ec0e1;
+   color: white;
+   letter-spacing: 0.1rem;
+   transition: all 0.3s;
+   border: none;
+   cursor: pointer;
+}
+.comm_btn:hover {
+   background-color: #9EEB47;
+}
+.comm_textarea {
+   padding: 10px;
+   height: 10rem;
+}
+.btn__box {
+   margin-top: 1%;
+}
+.comm_fields_text {
+   margin: 2% 0;
+   color: #888888;
+}
+.comm_fields_text span{
+   color: #3ec0e1;
+}
+.inp__box {
+   margin: 1% 0;
+}
+.name_text {
+   text-transform: uppercase;
+}
+.com_text {
+   color: #888888;
+   margin: 1% 0;
+}
+
+.comm_icon_box i{
+   color: #3ec0e1;
+}
+.comm_icon_box a{
+   text-decoration: none;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+.comm_icon_box a:hover{
+   color: #3ec0e1;
+   transition: all 0.3s;
+}
+.dash {
+   background-color: #888888;
+   border-color: #888888;
+}
+.comm_title {
+   margin-bottom: 2%;
+}
+.grid_container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   position: relative;
+   border-top: 3px solid #3ec0e1;
+   overflow: hidden;
+}
+.title_aside {
+   font-size: 1.8rem;
+   margin-bottom: 3%;
+}
+.icon_box {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 2%;
+}
+.total {
+   color: rgb(245, 227, 29);
+   font-size: 1.2rem;
+}

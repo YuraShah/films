@@ -1,0 +1,20 @@
+[
+   {
+      "id": 6,
+      "title": "THE HOBBIT (1997)",
+      "picture": "http://localhost:3000/images/6.jpg",
+      "genre": "horror"
+   },
+   {
+      "id": 7,
+      "title": "ELYSIUM (2014)",
+      "picture": "http://localhost:3000/images/7.jpg",
+      "genre": "horror"
+   },
+   {
+      "id": 8,
+      "title": "BLACK ROCK(2011)",
+      "picture": "http://localhost:3000/images/8.jpg",
+      "genre": "horror"
+   }
+]

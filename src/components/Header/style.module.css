@@ -1,0 +1,15 @@
+.flex_container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 30px 0;
+   width: 100%;
+}
+.header {
+   width: 100%;
+}
+.navbar {
+   background-color: #222222;
+   display: flex;
+   justify-content: space-between;
+}

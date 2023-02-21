@@ -1,0 +1,48 @@
+.pag_cont {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #222222;
+   padding: 20px 25px;
+}
+.pag_num_box {
+   display: flex;
+   list-style: none;
+}
+.pag_num_box li {
+   margin-right: 30px;
+}
+.btn_cont {
+   display: flex;
+}
+.btn_cont div {
+   margin-left: 10px;
+}
+.dash {
+   height: 25px;
+   background-color: #888888;
+   width: 1px;
+}
+.page {
+   color: white;
+   transition: all 0.5s;
+}
+.page_disab:hover {
+   color: #5BD1D7;
+   transition: all 0.5s;
+   cursor: pointer;
+}
+.btn {
+   font-size: 1.3em;
+   color: #888888;
+   background-color: transparent;
+   border: none;
+   transition: all 0.2s;
+}
+.btn:hover {
+   color: white;
+   transition: all 0.2s;
+}
+.page_active {
+   color: #5BD1D7;
+}

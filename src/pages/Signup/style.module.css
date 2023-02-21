@@ -1,0 +1,107 @@
+.wrap_cont {
+   background-image: 
+   linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+   url('http://localhost:3000/images/regform.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.container {
+   width: 60%;
+   /* border: 2px solid blue; */
+   margin: 30px 0;
+   padding: 15px;
+   padding-left: 100px;
+   display: flex;
+   flex-direction: column;
+   color: white;
+   font-weight: 600;
+}
+
+.title {
+   width: 43%;
+   text-align: center;
+   font-size: 25px;
+}
+
+.box_name {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.box_col {
+   display: flex;
+   flex-direction: column;
+}
+
+.box__gender {
+   display: flex;
+   justify-content: space-around;
+}
+
+.box__gender div {
+   margin: 5px 0;
+}
+
+.form__inps_radio {
+   vertical-align: middle;
+   margin-top: -2px;
+}
+.form {
+   width: 43%;
+   box-sizing: border-box;
+   font-size: 20px;
+}
+
+.form__divs {
+   width: 100%;
+   margin: 10px 0px;
+}
+
+.form__inps {
+   width: 100%;
+   padding: 10px;
+   outline: none;
+   border: none;
+   border-radius: 20px;
+   font-size: 16px;
+}
+
+.btn__box {
+   text-align: center;
+}
+
+.btn__box button {
+   width: 30%;
+   height: 35px;
+   border-radius: 20px;
+   outline: none;
+   border: none;
+   font-size: 16px;
+   cursor: pointer;
+   background-color: #040750;
+   color: white;
+   transition: all 0.5s ease;
+   
+}
+.btn__box button:hover {
+  transform: scale(1.3) rotate(-1deg);
+  transition: all 0.5s ease;
+}
+
+.error {
+   font-size: 20px;
+   color: red;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.starcolor {
+   color: red;
+}
+
+.starmessage {
+   font-size: 12px;
+   font-weight: 700;
+}

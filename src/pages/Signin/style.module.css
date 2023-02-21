@@ -1,0 +1,59 @@
+.container {
+   margin: 30px auto;
+   width: 60%;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.wrap_cont {
+   background-image: 
+   linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), 
+   url('http://localhost:3000/images/login.jpg');
+   background-size: cover;
+   width: 100%;
+}
+
+.form {
+   width: 25%;
+   text-align: center;
+}
+
+.form div {
+   width: 100%;
+   margin: 10px;
+}
+
+.form__inps{
+   width: 100%;
+   font-size: 16px;
+   border: none;
+   outline: none;
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.form__btn {
+   width: 100%;
+   border-radius: 20px;
+   padding: 10px;
+   border: none;
+   outline: none;
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   transition: all 0.5s ease;
+   cursor: pointer;
+}
+
+.form__btn:hover {
+   box-shadow: 0 0 10px 5px blue;
+   color: darkblue;
+   transition: all 0.5s ease;
+}
+
+.error {
+   font-size: 25px;
+   color: black;
+}

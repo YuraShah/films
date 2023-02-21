@@ -1,0 +1,90 @@
+.flex_box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   width: 570px;
+   height: 100%;
+   transition: all 0.5s ease-in-out;
+}
+.titl_cont{
+   position: relative;
+}
+.box_odd {
+   background-color: #2b2b2b;
+}
+.box_even {
+   background-color: #222222;
+}
+.text {
+   color: #888888;
+   margin: 10px 0;
+}
+.text_box {
+   padding-left: 35px;
+}
+.btn_box {
+   transform: translateX(60%)
+}
+.btn_box button{
+   width: 50px;
+   height: 50px;
+   border: 1px solid white;
+   background-color: transparent;
+   color: white;
+   cursor: pointer;
+   transition: all 0.5s ease-in-out;
+}
+.btn_box button:hover {
+   border: none;
+   background-color: rgb(93, 217, 223);
+   transition: all 0.5s ease-in-out;
+}
+.flex_box:hover {
+   transform: translateX(-20%);
+   transition: all 0.5s ease-in-out;
+}
+.title {
+   font-weight: 400;
+}
+.title a:hover {
+   color: #3ec0e1;
+   transition: all 0.5s ease-in-out;
+}
+
+.grid_cont {
+   display: grid;
+}
+.title a,
+.text_blue a,
+.btn_box a {
+   text-decoration: none;
+   color: white;
+   transition: all 0.5s ease-in-out;
+   cursor: pointer;
+}
+.text_blue a{
+   color: #3ec0e1;
+}
+.text_blue a:hover {
+   color: #da8383;
+   cursor: pointer;
+   transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 920px) {
+   .btn_container {
+      display: none;
+   }
+   .flex_box {
+      padding-right: 3%;
+   }
+}
+
+@media (max-width: 700px) {
+   .text_box {
+      margin: 10px 0;
+      width: 100%;
+      padding: 20px;
+   }
+}
